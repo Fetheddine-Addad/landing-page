@@ -33,32 +33,30 @@ body{
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
     font-family: "Poppins";
     height: 100%;
+    width: 100vw;
+    overflow: scroll;
+    overflow-x: hidden;
+   
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 
+ 
 
-/*::-webkit-scrollbar {
-    width: 2px;
-   /* background-color: #71a7ef;
-}
-/*
- ::-webkit-scrollbar-thumb {
-     background: rgb(45, 134, 218);
+ .navbar__element{
+     list-style: none;
+     margin: 2rem 2rem;
+     
  }
-*/
-.navbar__element{
-    list-style: none;
-    margin: 2rem 2rem;
     
-}
-
-/*::-webkit-scrollbar {
-   display: none;
-}*/
-
-.navbar{
-    
+    .navbar{
+        
     margin: 0.5rem 0 1rem;
     display: flex;
     flex-direction: row;
@@ -206,7 +204,7 @@ font-family: 'Inter';
         font-weight: 700;
         font-size: 8vh;
         color: #0A093D;
-        width: 70rem;
+       
         margin: 1rem 0  3rem 0;
 }
 
@@ -279,8 +277,10 @@ box-shadow: 1px 9px 24px -4px #0791ee;
     }
 
     .community{
-        width: 20rem;
+        width: 25rem;
         height: 5rem;
+        line-height: 1.5rem;
+        font-size: 1.5vh;
     }
 
          .navbar__list {    
@@ -314,7 +314,7 @@ box-shadow: 1px 9px 24px -4px #0791ee;
 
                  .community{
                     margin-bottom: 2rem;
-                    width: ;
+                    width: 20rem;
                  }
 }
 
@@ -334,16 +334,13 @@ box-shadow: 1px 9px 24px -4px #0791ee;
     display: none;
 }
 
-.navbar__logo-container{
-    position: relative;
-    left: 30px;
-}
+
 
 .community-title{
     font-size: 3vh;
 }
 
 .community-text{
-    font-size: 1vh;
+    font-size: 1.5vh;
 }
 }
