@@ -8,23 +8,27 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+   
+
+
     <title>Landing Page</title>
 </head>
 <body>
     <div class="Container">
         <div class="main">
             <div class="navbar">
-                <div class="navbar__logo-container navbar__element">
+                <div class="navbar__logo-container">
                     <img src="./assets/logo.svg" alt="logo">
                     <h1 class="navbar__logo-title">Notebook</h1>
                 </div>
-                <ul class="navbar__list">
+                <ul class="navbar__list " >
+                    <li class=" close_button " onclick="closeMenu()"><i class="ri-close-fill"></i></li>
                     <li class="navbar__element" style="font-weight: 700;">Home</li>
-                    <li class="navbar__element navbar-button__dropdownMenu">Community <img class="navbar-button__dropdownMenu-img" src="./assets/list.png" alt="logo"> </li>
+                    <li class="navbar__element navbar-button__dropdownMenu"><i class="ri-arrow-right-s-fill navbar-button__dropdownMenu-icon"></i> Community</li>
                     <li class="navbar__element">Blog</li>
                     <li class="navbar__element">Events  </li>
                 </ul>
-                <div class="hamburger-menu"><i class="ri-menu-line" width=" 25rem"></i></div>
+                <div class="hamburger-menu" onclick="openMenu()"><i class="ri-menu-line" width=" 25rem"></i></div>
                 <div class="navbar__element-actionButtons">
                 
                     <div class="searchbar__container"> 
@@ -54,5 +58,8 @@
             </div>
         </div>
     </div>
+    <script src="App.js"></script>
 </body>
 </html>
+
+
