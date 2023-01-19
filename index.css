@@ -195,15 +195,10 @@ font-family: 'Inter';
     color: #217BF4;
 
     margin: 1rem;
-    cursor: pointer;
+   
     transition: all .6s ease-in-out;
 }
 
-.community:hover {
-    background: rgba(8, 11, 149, 0.1);
-    color: #0b61d0;
-    box-shadow: 1px 9px 24px -4px rgba(181, 181, 213, 0.952);
- }
 
 .community-title{
     font-family: 'Inter';
@@ -307,6 +302,11 @@ box-shadow: 1px 9px 24px -4px #0791ee;
                  .hamburger-menu{
                     display: block;
                         padding-right: 5rem;
+                       
+                 }
+
+                 .ri-menu-line{
+                    font-size: 2vh;
                  }
                                
                  
